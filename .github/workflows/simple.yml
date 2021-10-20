@@ -8,9 +8,9 @@ jobs:
        steps:
            - name: echo a string
              run: echo "Hello Jeffereson you are a DevOps engineer"
-           - name: Multilinree script
+           - name: Multiline script
              run: |
                node -v
-               nmm -v
+               npm -v
 
                
