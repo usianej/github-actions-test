@@ -1,0 +1,29 @@
+name: Jeff
+age: 25
+address: "omotunde: akinsola"
+key:
+    key: value
+    key2: 22
+    key3:
+        key: thor
+        key2: drago
+jasonObject: {}
+
+array:
+    - item1
+    - item2 
+
+objectArray:
+    - key: value 
+      key2: value
+    - key: value
+longText: >
+    this is a very long 
+    text to create a multiline file 
+    and it's not broken
+longtextFormatKept: |
+        This is a set of files that i want to run like this 
+        this loka thatt
+        lok diddid did loka dat 
+        10 of october 2020
+        

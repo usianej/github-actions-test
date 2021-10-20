@@ -1,0 +1,16 @@
+name: shell commands
+
+on: [push]
+
+jobs:
+   run-shell-command:
+       runs-on: ubuntu-latest
+       steps:
+           - name: echo a string
+             run: echo "Hello Jeffereson you are a DevOps engineer"
+           - name: Multilinree script
+             run: |
+               node -v
+               nmm -v
+
+               
