@@ -15,7 +15,7 @@ array:
 
 objectArray:
     - key: value 
-      key2: value
+      key2: 323
     - key: value
 longText: >
     this is a very long 
