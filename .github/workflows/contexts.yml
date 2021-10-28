@@ -2,6 +2,12 @@ name: Contexts
 on: push
 
 jobs:
+  functions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dump
+        run: |
+          echo ${{ contains( 'hello', 'll' ) }}
   one:
     runs-on: ubuntu-latest
     steps:
