@@ -13,9 +13,9 @@ jobs:
             is_ubuntu_8: "true"
         exclude:
           - os: ubuntu-latest
-            node-version: 6
+            node_version: 6
           - os: macos-latest
-            node-version: 8
+            node_version: 8
       # fail-fast: true #even when a job fails it will still run the rest
       max-parallel: 2 #runs jobs in parallel but limits it to tw parallel jobs at a time
     runs-on: ${{ matrix.os }} #refences the variable in the matrix
