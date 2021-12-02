@@ -18,8 +18,8 @@ jobs:
       - name: Run a script 
         uses: docker://node:12.14.1-alpine3.10
         with:
-          entrypoint: /usr/bin/which
-          args: chmod
+          entrypoint: ./script.sh
+          args: "jk"
   node-docker:
     runs-on: ubuntu-latest
     container:
