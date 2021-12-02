@@ -20,7 +20,7 @@ jobs:
         with:
           # entrypoint: /bin/chmod
           # args: "+x ./script.sh"
-          entrypoint: ./script.sh"
+          entrypoint: ./script.sh
           args: "sdfd"
   node-docker:
     runs-on: ubuntu-latest
