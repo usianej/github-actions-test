@@ -1,3 +1,2 @@
-#!/bin/bash
-echo $1
+#!/bin/sh
 echo "Grateful"
