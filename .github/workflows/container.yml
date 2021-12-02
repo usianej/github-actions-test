@@ -14,6 +14,12 @@ jobs:
         with:
           entrypoint: /usr/local/bin/node
           args: -v
+      - uses: actions/checkout@v1
+      - name: Run a script 
+        uses: docker://node:12.14.1-alpine3.10
+        with:
+          entrypoint: ./script.sh
+          args: "Na argument be thisooo"
   node-docker:
     runs-on: ubuntu-latest
     container:
